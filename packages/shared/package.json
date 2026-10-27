@@ -1,0 +1,16 @@
+{
+  "name": "@retail-orders-mcp/shared",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "smoke": "tsx --env-file=../../.env src/smoke.ts"
+  },
+  "dependencies": {
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.23.1"
+  }
+}

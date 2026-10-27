@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "retail-orders": {
+      "command": "node_modules/.bin/tsx",
+      "args": ["packages/orders-server/src/index.ts"],
+      "env": {
+        "DATABASE_URL": "postgres://mcp:mcp@localhost:5433/retail_orders",
+        "CUSTOMER_ID": "1"
+      }
+    }
+  }
+}

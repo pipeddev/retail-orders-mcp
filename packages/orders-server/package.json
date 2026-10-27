@@ -1,0 +1,21 @@
+{
+  "name": "@retail-orders-mcp/orders-server",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx --env-file=../../.env src/index.ts",
+    "inspect": "mcp-inspector tsx --env-file=../../.env src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "@retail-orders-mcp/shared": "workspace:*",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/inspector": "^2.12.0",
+    "vitest": "^5.0.5"
+  }
+}

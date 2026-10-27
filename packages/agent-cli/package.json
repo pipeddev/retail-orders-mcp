@@ -1,0 +1,13 @@
+{
+  "name": "@retail-orders-mcp/agent-cli",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "chat": "tsx --env-file=../../.env src/index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "@modelcontextprotocol/sdk": "^1.32.2"
+  }
+}
